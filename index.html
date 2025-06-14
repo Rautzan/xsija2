@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="img/at.jpg" type="image/x-icon">
+  <title>3 Rekomendasi wisata di Sleman</title>
+  <style>
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#tentangg">Tentang kami</a></li>
+        <li><a href="#">Destinasi</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Pariwisata</a></li>
+        <li class="hideOnMobile"><a href="#">Beranda</a></li>
+        <li class="hideOnMobile"><a href="#tentangg">Tentang kami</a></li>
+        <li class="hideOnMobile"><a href="#destinasi">Destinasi</a></li>
+        <li class="hideOnMobile"><a href="#">Forum</a></li>
+        <li class="hideOnMobile"><a href="#kontak">Contact</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+      </ul>
+    </nav>
+    </div>
+
+    <div class="hero-content">
+      <h1>Petualangan Dimulai!</h1>
+      <p>Jelajahi tempat-tempat terbaik untuk liburanmu</p>
+      <a href="#destinasi"><button class="btn-mulai">Mulai</button></a>
+    </div>
+  </section>
+  <div class="bungkus" id="tentangg">
+  <div class="image-box">
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/cat.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/Okkosso yuta cat.jfif" style="width:100%">
+      <div class="text">RAUSYAn</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/pop.gif" style="width:100%">
+      <div class="text">POP CAT $5  </div>
+    </div>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </div>
+  <div class="text-box">
+    <h2>Tentang Kami</h2>
+    <p>
+      Explore Indonesia adalah platform digital yang hadir untuk memudahkan siapa pun menemukan keindahan pariwisata tanah air. Kami percaya bahwa Indonesia tidak hanya kaya akan destinasi alam yang memukau, tetapi juga memiliki kekayaan budaya, sejarah, dan kuliner yang luar biasa. Dari barat Sabang hingga timur Merauke, setiap tempat menyimpan cerita dan pesona tersendiri yang layak untuk dieksplorasi.
+    </p>
+  </div>
+</div>
+
+<section class="travel-plan">
+  <div class="travel-text">
+    <h3>Jangan khawatir dengan perjalanan anda</h3>
+    <p>Dengan Explore Indonesia, Anda bisa menjelajahi tempat-tempat terbaik untuk liburan secara mudah dan menyenangkan. Kami membantu Anda menemukan dan memesan kamar dari hotel dan resor terbaik di sekitar Anda dengan praktis. Ingin bepergian? Pesan tiket ke destinasi impian hanya dengan satu klik. Tak hanya itu, Anda juga bisa menemukan berbagai tempat menarik, mulai dari atraksi lokal hingga ruang publik di sekitar lokasi Anda. Semua kemudahan ini kami hadirkan agar perjalanan Anda jadi lebih lancar, nyaman, dan penuh pengalaman seru.
+
+    </p>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon">🏨</div>
+      <div class="feature-title">Hotel yang terbaik</div>
+      <div class="feature-desc">Nikmati kemudahan memesan kamar dari hotel dan resor pilihan terbaik yang ada di sekitarmu. Lebih cepat, praktis, dan sesuai kebutuhanmu</div>
+    </div>
+    <div class="feature">
+      <div class="icon">🎟️</div>
+      <div class="feature-title">Pesan tiket lebih praktis</div>
+      <div class="feature-desc">Pergi ke mana saja jadi lebih mudah. Cukup satu klik, tiket ke destinasi impianmu langsung dipesan tanpa ribet.</div>
+    </div>
+
+    <div class="feature">
+      <div class="icon">📍</div>
+      <div class="feature-title">Temukan temapat menarik</div>
+      <div class="feature-desc">Jelajahi berbagai tempat seru di sekitarmu, mulai dari wisata lokal, tempat umum, hingga lokasi yang belum pernah kamu kunjungi sebelumnya.</div>
+    </div>
+  </div>
+</section>
+
+  <section class="destinations" id="destinasi">
+    <div class="card">
+      <img src="img/gunungapi.jpg" alt="Museum Gunungapi Merapi" />
+      <div class="card-content">
+        <h3>Museum Gunungapi Merapi</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ipsam dolor, et quos aut sit deleniti expedita harum mollitia, sequi nobis magni, perspiciatis error! Voluptatibus sit recusandae deleniti perferendis quod veniam laborum explicabo? Voluptates est veritatis sit at soluta earum!</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/vatour" alt="Lava Tour" />
+      <div class="card-content">
+        <h3>Lava Tour</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in id soluta tempore consectetur odio molestias labore harum explicabo. Iure, rem! Minus obcaecati accusantium, expedita eaque quasi quaerat explicabo maiores pariatur animi voluptas cupiditate doloribus maxime modi laborum quo reiciendis?</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/merapi.jpg" alt="Merapi Park" />
+      <div class="card-content">
+        <h3>Merapi Park</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium inventore harum repudiandae sunt expedita. Impedit, quas vitae assumenda et aspernatur quidem iure omnis ratione quaerat sed a ut dolorem fugiat! Nemo perspiciatis sequi necessitatibus eius, iste sit. Iure, a.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guestbook">
+    <h2>Guest Book</h2>
+    <form id="guestbook-form">
+      <label>
+        Nama:
+        <input type="text" name="nama" required>
+      </label>
+      <br>
+      <label>
+        Komentar:
+        <textarea name="komentar" rows="4" required></textarea>
+      </label>
+      <br>
+      <button type="submit">Kirim</button>
+    </form>
+  
+    <div id="guestbook-entries">
+      <h3>Komentar:</h3>
+      <ul id="entries-list"></ul>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <div class="footer-contact">
+      <p>Email: eksploresindo@yahoo.com | No: 0812345678</p>
+    </div>
+  </footer>
+
+  <!--button id="reset-data" style="margin-top: 20px; background: red; color: white; padding: 10px; border:none; border-radius:5px; cursor:pointer;">
+    Reset Data Guestbook
+  </button-->
+
+  <div class="popup" id="promo-popup">
+    <strong>Eh buseett! <span class="close-btn" onclick="closePopup()">❌</span></strong><br/>
+    Dapatkan diskon 10% untuk pemesanan hari ini.
+  </div>
+  
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
